@@ -1,5 +1,6 @@
 package com.kkh.freelecspringbootwebservice.domain.posts;
 
+import com.kkh.freelecspringbootwebservice.domain.BaseEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,7 +10,7 @@ import javax.persistence.*;
 @Entity
 @Getter
 @NoArgsConstructor
-public class Posts {
+public class Posts extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
