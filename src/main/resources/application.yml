@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: oauth
   datasource:
     url: jdbc:h2:mem:testdb;MODE=MYSQL
   jpa:
