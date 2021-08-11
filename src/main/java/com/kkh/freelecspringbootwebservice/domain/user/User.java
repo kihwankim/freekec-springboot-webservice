@@ -35,6 +35,13 @@ public class User extends BaseEntity {
         this.role = role;
     }
 
+    public User update(String name, String picture) {
+        this.name = name;
+        this.picture = picture;
+
+        return this;
+    }
+
     public String getRoleKey() {
         return this.role.getKey();
     }
