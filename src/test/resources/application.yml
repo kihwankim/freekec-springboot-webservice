@@ -11,3 +11,12 @@ spring:
       ddl-auto: create
   thymeleaf:
     cache: false
+  session:
+    store-type: jdbc
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: test
+            scope: profile,email
