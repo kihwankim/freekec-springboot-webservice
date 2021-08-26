@@ -1,1 +1,1 @@
-# freelec-springboot-webservice
+# freelec-springboot-webservice [![Build Status](https://app.travis-ci.com/kihwankim/freelec-springboot-webservice.svg?branch=master)](https://app.travis-ci.com/kihwankim/freelec-springboot-webservice)
