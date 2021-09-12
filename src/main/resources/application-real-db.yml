@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:mariadb://localhost:3306/freelec_springboot2_webservice
+    username: root
+    password:
+    driver-class-name: org.mariadb.jdbc.Driver
